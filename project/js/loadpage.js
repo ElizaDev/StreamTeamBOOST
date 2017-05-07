@@ -34,7 +34,7 @@ xhr.onload = function() {
 };
 
 function streamBio(user, cb) {
-	twitchjson.open('GET', 'https://api.twitch.tv/kraken/users/?login=' + user + '&client_id=wxir5k9okp0mxg8m7px83zel59x6gs&api_version=5', true);
+	twitchjson.open('GET', 'https://api.twitch.tv/kraken/users/?login=' + user + '&client_id=<PUT TWITCH API KEY HERE>&api_version=5', true);
 	twitchjson.send();
 
 	twitchjson.addEventListener('readystatechange', processRequest, false);

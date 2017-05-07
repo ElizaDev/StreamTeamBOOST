@@ -1,0 +1,18 @@
+#stream-table {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	flex-direction: row;
+ }
+
+ .streamers {
+ 	width: 700px;
+ 	height: 300px;
+ 	margin: 10px 5px auto;
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ }
+
+ body {
+ 	background: #6441A4;
+ }
